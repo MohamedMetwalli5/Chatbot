@@ -6,22 +6,27 @@
         "Hi",
         "Hey",
         "How are you",
+        "Good day",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "what's up"
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello, my name is Alex. How can i help you?",
+        "Hi there, my name is Alex. what can I do for you?",
+        "Hello there, my name is Alex. how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
+        "See you later, hope i was helpful",
         "Have a nice day",
         "Bye! Come back again soon."
       ]
@@ -39,8 +44,8 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell laptops and keyboards",
+        "We have laptops and keyboards"
       ]
     },
     {
@@ -57,15 +62,12 @@
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "FootballTeam",
       "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
+        "What is you favourite football team?"
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "It is real madrid"
       ]
     },
     {
@@ -78,6 +80,24 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?"
+      ],
+      "responses": [
+        "I was released on April 2022"
+      ]
+    },
+    {
+      "tag": "TechnicalSupport",
+      "patterns": [
+        "When is the technical support team is available?"
+      ],
+      "responses": [
+        "every monday from 2:00 pm till 10:00 pm"
       ]
     }
   ]
