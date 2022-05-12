@@ -3,7 +3,6 @@ import tkinter
 from PIL import ImageTk, Image
 
 
-
 def GetInput():
     output_text_box.delete("1.0", "end")
     input = input_text_box.get(1.0, "end-1c")
@@ -14,6 +13,7 @@ def GetInput():
 
 root = tkinter.Tk()
 root.title("Alex: The Chatbot")
+root.iconbitmap("Icon.ico")
 root.wm_minsize(350, 400)
 root.wm_maxsize(350, 400)
 root.configure(bg='black')
