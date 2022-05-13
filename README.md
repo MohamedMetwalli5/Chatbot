@@ -3,5 +3,6 @@
 
 # Alex: The Chatbot
 ![image](https://user-images.githubusercontent.com/58489322/168048894-f31f2cc2-92d9-43df-99c1-0beefe6133cc.png)
+<br/>
 ![pytorch](https://user-images.githubusercontent.com/58489322/166165046-34d39b09-7deb-466b-8858-59afdb252d35.png)
 
